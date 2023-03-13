@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #board {
+            position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+    
+        #score {
+            text-align: center;
+            font-size: 140px;
+        color: white;
+            font-family: helvetica;
+        }
+    
+      body {
+        margin: 0;
+      }
+    
+      #end {
+        position: absolute;
+        width: 100%;
+        background: white;
+        top: 40%;
+        text-align: center;
+        font-size: 40px;
+        font-family: helvetica;
+      }
+      body {
+        background: hsla(250, 50%, 55%, 1.0);
+      }
+    </style>
+</head>
+<body>
+    <div id="score">0</div>
+	<canvas id="board" width="300" height="300"></canvas>
+  <div id="end"></div>
+</body>
+</body>
+</html>
+<script type="text/javascript" src="index.js"></script>
